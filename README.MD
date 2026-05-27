@@ -24,3 +24,4 @@ python main.py
 - Python 3.x
 - Requests library
 - wttr.in API (no key required)
+
