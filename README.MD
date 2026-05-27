@@ -1,18 +1,26 @@
-# Weather App
+# 🌤️ Weather CLI App
 
-A Python project that fetches live weather data using API.
+A command-line weather app built with Python that fetches real-time weather data for any city worldwide.
 
 ## Features
-- Real-time weather data
-- Temperature
-- Humidity
-- Weather condition
 
-## Tech Stack
-- Python
-- Requests API
+- Real-time temperature (°C and °F)
+- Feels like, humidity, wind speed & direction
+- Visibility and UV index
+- Error handling for invalid city, no internet, timeout
+- Check multiple cities without restarting
 
-## How to run
+## Setup
 
 ```bash
-python weather_app.py
+git clone https://github.com/samoff04/Python-Weather-App.git
+cd Python-Weather-App
+pip install -r requirements.txt
+python main.py
+```
+
+## Tech Stack
+
+- Python 3.x
+- Requests library
+- wttr.in API (no key required)
