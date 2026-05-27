@@ -13,8 +13,8 @@ A command-line weather app built with Python that fetches real-time weather data
 ## Setup
 
 ```bash
-git clone https://github.com/samoff04/Python-Weather-App.git
-cd Python-Weather-App
+git clone https://github.com/samoff04/Weather-CLI-App.git
+cd Weather-CLI-App
 pip install -r requirements.txt
 python main.py
 ```
